@@ -16,7 +16,8 @@ Welcome to our Awesome Todo App! This simple yet powerful task manager is design
 
 1. Clone the repository.
    ```bash
- (https://github.com/ravi-rautela/to-do-Application.git)
+   https://github.com/ravi-rautela/to-do-Application.git
+
 npm install
 
 npm start
