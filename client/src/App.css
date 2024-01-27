@@ -1,0 +1,110 @@
+/* src/App.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+.container {
+  position: absolute;
+  max-width: 697px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 4px 90px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 45%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 20px;
+}
+.dist {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+li button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e57373;
+  color: #fff;
+}
+.del {
+  background-color: red;
+}
+.distOne {
+  flex: 3;
+}
+.distTwo {
+  flex: 1;
+}
