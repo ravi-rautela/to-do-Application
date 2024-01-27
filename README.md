@@ -18,6 +18,10 @@ Welcome to our Awesome Todo App! This simple yet powerful task manager is design
    ```bash
    https://github.com/ravi-rautela/to-do-Application.git
 
+   ## Database
+
+This app uses MongoDB as its database, and you can interact with the data using [MongoDB Compass](https://www.mongodb.com/try/download/compass).
+
 npm install
 
 npm start
